@@ -1,0 +1,221 @@
+
+.parent{
+	   
+	   
+
+}
+
+.nav_parent{
+	    height:70px;
+		display:flex;
+		background:#0C0C0C;
+
+}
+
+.nav a{
+	       
+		   padding:20px;
+		   margin:20px;
+		   font-family: tahoma; sans-serif;
+		   font-size:1.080em;
+		   text-decoration:none;
+		   color:white;
+		 
+		   
+}
+
+.nav a:hover{
+	background:orange;
+	padding:8px;
+}
+.nav{
+	padding:10px;
+	margin:10px;
+}
+
+.logo{
+	  
+	  width:30%;
+}
+
+.nav{
+	
+	 width:70%;
+}
+
+.banner{
+	    height:700px;
+		
+}
+
+.accessories_box{
+	        display:flex;
+			justify-content:center;
+			 background:lightgrey;
+			
+			
+}
+
+.accessories_box div{
+            
+	        width:30%;
+		    
+		    padding:10px;
+			
+}
+
+.accessories_box div img{
+	       
+		   padding:10px;
+		   max-width:100%;
+}
+
+.accessories_box div a{
+	        text-decoration:none;
+			padding:10px;
+			
+}
+.accessories_box div a:hover{
+	color:orange;
+}
+.footer{
+	height:200px;
+	background:red;
+}
+
+.parent div p{
+		 font-family:tahoma; sans-serif;
+		 /* em is a type of font size which can also be in px, it is relative i.e could be manipulated by user, 1em =16px which is the browser font default*/
+		 font-size:1.080em;
+		 
+}
+
+.accessories_box{
+	         max-width:100%;
+}
+
+.accessories_box2{
+	           display:flex;
+		   	   justify-content:center;
+			   
+			  
+}
+
+.accessories_box2 div{
+		    width:30%;
+		    
+			padding:10px;
+			justify-content:center;
+			align-items:center;
+			gap:10px;
+			
+		    
+			
+}
+
+
+accessories_box2 div img{
+	      width:100%;
+		   
+}
+
+
+.accessories_box2 div p{
+	     padding:5px;
+		 font-family:tahoma; sans-serif;
+		 /* em is a type of font size which can also be in px, it is relative i.e could be manipulated by user, 1em =16px which is the browser font default*/
+		 font-size:1.080em;
+}
+		 
+.accessories_box2 div a{
+	        text-decoration:none;
+			padding:10px;
+}
+
+.accessories_box2 div a:hover{
+	color:orange;
+}
+
+.closet_box{
+	          
+			  display:flex;
+			  justify-content:center;
+}
+
+.closet_box div{
+	           width:30%;
+			   padding:10px;
+			   
+			 
+}
+
+
+.closet_box div img{
+	            width:100%;
+}
+
+.closet_box div a{
+	        text-decoration:none;
+			padding:10px;			
+}	
+
+.closet_box div a:hover{
+	color:orange;
+}
+
+.closet_box2 div{
+	        width:40%;
+			padding:10px;
+			margin:10px;
+}
+
+.closet_box2 img{
+	       width:100%;
+}
+
+.closet_box2{
+	       display:flex;
+		   justify-content:center;
+}
+
+.closet_box2 div a:hover{
+	color:orange;
+}
+
+
+.closet_box2 div a{
+	        text-decoration:none;
+			padding:10px;			
+}	
+
+.footer{
+	    background-color:#4C86A8;
+		
+}
+
+.span{
+	  color:white;
+}
+
+/*media quaery for mobile*/
+@media screen and (max-width:480px){
+	.parent{
+		flex-direction:column;
+	}
+	.parent div{
+		width:90%;
+	}
+}
+
+/*media quaery for other screen*/
+@media screen and (min-width:480px) and (max-width:780px){
+		
+	.parent{
+		 flex-wrap:wrap;
+	}
+	
+	.parent div{
+		width:40%;
+	}
+	
+}

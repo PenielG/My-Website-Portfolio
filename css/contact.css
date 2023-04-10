@@ -1,0 +1,69 @@
+
+.parent{
+	
+	
+}
+
+.nav-parent{
+	       
+		   height:75px;
+		   display:flex;
+		   background:#0C0C0C
+}
+
+.logo{
+	   
+	   width:30%;
+}
+
+.nav{
+	
+	 padding:20px;
+}
+
+
+.footer{
+	   
+	   height:200px;
+}
+
+
+.nav a{
+	       padding:10px;
+		   margin:10px;
+		   color:white;
+		   text-decoration:none;
+		   font-family:tahoma, sans-serif;	  
+		
+}
+
+body{
+ background-image:url("../images/banner.jpg");
+}
+
+.nav a:hover{
+	      background:orange;
+}
+
+/*media quaery for mobile*/
+@media screen and (max-width:480px){
+	.parent{
+		flex-direction:column;
+	}
+	.parent div{
+		width:90%;
+	}
+}
+
+/*media quaery for other screen*/
+@media screen and (min-width:480px) and (max-width:780px){
+		
+	.parent{
+		 flex-wrap:wrap;
+	}
+	
+	.parent div{
+		width:100%;
+	}
+	
+}
